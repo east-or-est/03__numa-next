@@ -1,0 +1,14 @@
+@import '../../../styles/function.scss';
+
+.desc {
+  margin-bottom: 80px;
+  p {
+    white-space: pre-wrap;
+    line-height: 2;
+  }
+}
+
+
+figure + .desc {
+  margin-top: 40px;
+}

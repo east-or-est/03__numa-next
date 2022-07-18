@@ -1,0 +1,30 @@
+{
+  "name": "sousaku-numa",
+  "private": true,
+  "homepage": "https://blog.est-s.net",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "next dev",
+    "hoge": "next export",
+    "build": "next build && next export && cp out/404/index.html out/404.html && rm -rf out/404",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "date-fns-tz": "^1.3.6",
+    "microcms-js-sdk": "^2.0.0",
+    "next": "12.2.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.53.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.0.6",
+    "@types/react": "18.0.15",
+    "@typescript-eslint/eslint-plugin": "^5.30.6",
+    "@typescript-eslint/parser": "^5.30.6",
+    "eslint": "8.20.0",
+    "eslint-config-next": "12.2.2",
+    "typescript": "^4.7.4"
+  }
+}
